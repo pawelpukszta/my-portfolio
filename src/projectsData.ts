@@ -2,9 +2,9 @@ const projects = [
     {
         title: 'Shopping cart',
         image: '../images/projects/shopping_cart.png',
-        description: 'Some description',
-        tools: [ 'React', 'TypeScript' ],
-        github: 'some.link.com',
+        description: 'Shopping cart project with usage of ReactJS & Typescript, Material UI, Styled Components and React-Query',
+        tools: [ 'ReactJS', 'TypeScript', 'Material UI', 'Styled Components', 'React-Query' ],
+        github: 'https://github.com/pawelpukszta/ts-react-app',
         link: 'another.link.com',
     },
     {

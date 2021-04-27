@@ -4,7 +4,7 @@ import Cta from './components/Cta';
 import Projects from './components/Projects';
 
 function App() {
-  
+
   return (
     <div className="relative w-full max-w-full lg:max-w-6xl xl:max-w-screen-2xl mx-auto">
       <div className="absolute inset-0 -mr-3.5 bg-gradient-to-r from-red-100 to-purple-500 shadow-lg transform -skew-y-6 sm:skew-y-0 sm:rotate-3 sm:rounded-3xl"></div>
@@ -19,19 +19,19 @@ function App() {
         <div className="px-5 sm:px-20 py-6">
           <Navbar />
           <div className="content-container overflow-auto relative">
-          <section
-            id="about"
-            className="content md:flex items-center bg-white dark:bg-gray-800 relative"
-            
-          >
-            <Cta />
-          </section>
-          <section
-            id="projects"
-            className="content m-0 px-10 md:flex items-center"
-          >
-            <Projects />
-          </section>
+            <section
+              id="about"
+              className="content md:flex items-center bg-white dark:bg-gray-800 relative"
+
+            >
+              <Cta />
+            </section>
+            <section
+              id="projects"
+              className="content m-0 px-10 md:flex items-center"
+            >
+              <Projects />
+            </section>
           </div>
         </div>
       </div>

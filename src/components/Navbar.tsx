@@ -1,7 +1,7 @@
 import React from 'react';
 import { NavHashLink as Link } from 'react-router-hash-link';
 const Navbar = () => {
-    
+
     return (
         <nav className="flex items-center justify-between">
             <div className="flex items-center justify-center">
@@ -16,7 +16,7 @@ const Navbar = () => {
             <div className="flex items-center justify-center">
                 <Link
                     smooth
-                    to={'/#about'}
+                    to={ '/#about' }
                     className="sm:flex sm:items-center sm:justify-center mr-10 text-base text-gray-700 text-opacity-90 font-medium tracking-tight hover:text-cool-gray-600 transition duration-150 ease-in-out"
                     activeClassName="selected"
                 >
@@ -24,7 +24,7 @@ const Navbar = () => {
                 </Link>
                 <Link
                     smooth
-                    to={'/#projects'}
+                    to={ '/#projects' }
                     className="sm:flex sm:items-center sm:justify-center mr-10 text-base text-gray-700 text-opacity-90 font-medium tracking-tight hover:text-cool-gray-600 transition duration-150 ease-in-out"
                     activeClassName="selected"
                 >
